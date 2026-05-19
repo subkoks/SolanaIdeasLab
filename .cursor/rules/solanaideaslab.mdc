@@ -1,0 +1,37 @@
+---
+description: 
+alwaysApply: true
+---
+
+# SolanaIdeasLab
+
+## Layout
+
+- **Repository root:** strategy and reference docs (`README.md`, `MASTER-PLAN.md`, `ARCHITECTURE.md`, `GAP-ANALYSIS.md`, `MARKET-MAP.md`, `tech-stack.md`). Do not expand or rewrite these unless the user asks.
+- **Implementations:** `projects/token-safety-bot`, `projects/token-sniper-bot`, `projects/wallet-tracker-pro`. Git metadata may live under `projects/.git`; treat `projects/` as the app root for builds and commits when working on those apps.
+
+## Focus
+
+- **Primary product to extend:** `projects/token-safety-bot` (Token Safety Bot).
+- **Reference patterns only:** `projects/token-sniper-bot` (structure, queues, Telegram, etc.)—do not merge sniper-specific features into the safety bot unless requested.
+
+## Stack (current code)
+
+- Node.js + TypeScript, Express, Telegraf, `@solana/web3.js`.
+- **token-safety-bot:** Zod for request validation; JSON file persistence via `DatabaseService` (optional Postgres/Redis is future work).
+- **token-sniper-bot:** Joi, Prisma, Redis/Bull where present.
+- Do **not** introduce `@solana/kit` or large framework migrations in these bots unless the user explicitly requests a migration.
+
+## Long-term shape
+
+- See `tech-stack.md` and `ARCHITECTURE.md` for intended APIs, auth, and shared services.
+
+## Security
+
+- Never commit secrets, `.env`, or tokens. Use `.env.example` only as a template.
+- Prefer configuration via `projects/token-safety-bot/src/config/environment.ts` (env vars).
+
+## Style
+
+- Match existing file style (quotes, imports) in each subproject.
+- Minimum change set: fix what is asked; avoid drive-by refactors.

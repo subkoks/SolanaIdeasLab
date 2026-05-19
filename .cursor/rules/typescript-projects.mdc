@@ -1,0 +1,12 @@
+---
+description: TypeScript conventions for projects/* implementations
+globs: projects/**/*.ts
+alwaysApply: false
+---
+
+# TypeScript under `projects/`
+
+- Prefer explicit types on exported functions and public class methods.
+- Validate external input at HTTP boundaries (Zod in token-safety-bot; Joi where already used in token-sniper-bot).
+- Use `Array<T>` in new code if the surrounding file already does; otherwise match the file’s existing array style.
+- Handle errors with clear messages; avoid empty `catch` blocks except where intentionally swallowing optional failures (e.g. broadcast to one chat).

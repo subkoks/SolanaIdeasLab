@@ -1,0 +1,64 @@
+# Node
+node_modules/
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+*.tgz
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
+.eggs/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Env
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Secrets / wallets
+*.pem
+*.key
+*.p12
+wallet.json
+keypair.json
+*.session
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Agent runtime (not project config)
+.claude/projects/
+.cursor/projects/
+.cursor/plans/
+
+# Companion repo with subproject code lives separately
+# Pushed as subkoks/SolanaIdeasLab-projects
+projects/
