@@ -91,7 +91,7 @@ Month 6: AI Agent Platform                             → $150K+/mo
 
 | Status                        | Projects | Meaning                                                               |
 | ----------------------------- | -------- | --------------------------------------------------------------------- |
-| � **Partial implementation**  | 2        | Real code exists, but the baseline still needs stabilization          |
+| 🟢 **Partial implementation** | 2        | Real code exists, but the baseline still needs stabilization          |
 | 🟡 **Scaffold / placeholder** | 8        | Strategy and folder structure exist, but implementation is still thin |
 | 🔴 **Production-ready**       | 0        | No project is yet in a ship-ready state                               |
 
@@ -99,16 +99,16 @@ Month 6: AI Agent Platform                             → $150K+/mo
 
 | Project                                                  | Tier | Build Time | Revenue      | Current State            |
 | -------------------------------------------------------- | ---- | ---------- | ------------ | ------------------------ |
-| [Token Sniper Bot](projects/token-sniper-bot/)           | T1   | 3-5 days   | $5K–25K/mo   | � Partial implementation |
-| [Token Safety Bot](projects/token-safety-bot/)           | T1   | 3-5 days   | $4K–20K/mo   | � Partial implementation |
-| [Wallet Tracker Pro](projects/wallet-tracker-pro/)       | T4   | 2-4 weeks  | $10K–75K/mo  | � Detailed scaffold      |
-| [Airdrop Tracker](projects/airdrop-tracker/)             | T6   | 2-3 weeks  | $15K–100K/mo | � Folder scaffold        |
-| [KOL Tracker](projects/kol-tracker/)                     | T4   | 2-3 weeks  | $9K–30K/mo   | � Folder scaffold        |
-| [Token Safety Suite](projects/token-safety-suite/)       | T4   | 2-3 weeks  | $17K–100K/mo | � Folder scaffold        |
-| [On-Chain Casino](projects/on-chain-casino/)             | T2   | 4-6 weeks  | $45K–450K/mo | � Folder scaffold        |
-| [AI Agent Platform](projects/ai-agent-platform/)         | T6   | 8-12 weeks | $37K–650K/mo | � Folder scaffold        |
-| [Copy-Trade Bot](projects/copy-trade-bot/)               | T1   | 1-2 weeks  | $5K–40K/mo   | � Folder scaffold        |
-| [Crypto Tax Calculator](projects/crypto-tax-calculator/) | T6   | 4-6 weeks  | $30K–300K/mo | � Folder scaffold        |
+| [Token Sniper Bot](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/token-sniper-bot)           | T1   | 3-5 days   | $5K–25K/mo   | 🟢 Partial implementation |
+| [Token Safety Bot](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/token-safety-bot)           | T1   | 3-5 days   | $4K–20K/mo   | 🟢 Partial implementation |
+| [Wallet Tracker Pro](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/wallet-tracker-pro)       | T4   | 2-4 weeks  | $10K–75K/mo  | 🟡 Detailed scaffold      |
+| [Airdrop Tracker](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/airdrop-tracker)             | T6   | 2-3 weeks  | $15K–100K/mo | 🟠 Folder scaffold        |
+| [KOL Tracker](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/kol-tracker)                     | T4   | 2-3 weeks  | $9K–30K/mo   | 🟠 Folder scaffold        |
+| [Token Safety Suite](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/token-safety-suite)       | T4   | 2-3 weeks  | $17K–100K/mo | 🟠 Folder scaffold        |
+| [On-Chain Casino](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/on-chain-casino)             | T2   | 4-6 weeks  | $45K–450K/mo | 🟠 Folder scaffold        |
+| [AI Agent Platform](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/ai-agent-platform)         | T6   | 8-12 weeks | $37K–650K/mo | 🟠 Folder scaffold        |
+| [Copy-Trade Bot](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/copy-trade-bot)               | T1   | 1-2 weeks  | $5K–40K/mo   | 🟠 Folder scaffold        |
+| [Crypto Tax Calculator](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/crypto-tax-calculator) | T6   | 4-6 weeks  | $30K–300K/mo | 🟠 Folder scaffold        |
 
 ---
 
@@ -116,27 +116,27 @@ Month 6: AI Agent Platform                             → $150K+/mo
 
 | Project                                                      | Tier | Month | Baseline                  |
 | ------------------------------------------------------------ | ---- | ----- | ------------------------- |
-| [projects/token-safety-bot/](projects/token-safety-bot/)     | T1   | 1     | Continue here first       |
-| [projects/token-sniper-bot/](projects/token-sniper-bot/)     | T1   | 1     | Use as reference scaffold |
-| [projects/wallet-tracker-pro/](projects/wallet-tracker-pro/) | T4   | 2     | Spec-heavy scaffold       |
-| [projects/airdrop-tracker/](projects/airdrop-tracker/)       | T6   | 2     | Directory placeholder     |
-| [projects/kol-tracker/](projects/kol-tracker/)               | T4   | 3     | Directory placeholder     |
-| [projects/token-safety-suite/](projects/token-safety-suite/) | T4   | 3     | Directory placeholder     |
-| [projects/on-chain-casino/](projects/on-chain-casino/)       | T2   | 4–5   | Directory placeholder     |
-| [projects/ai-agent-platform/](projects/ai-agent-platform/)   | T6   | 6     | Directory placeholder     |
+| [projects/token-safety-bot/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/token-safety-bot)     | T1   | 1     | Continue here first       |
+| [projects/token-sniper-bot/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/token-sniper-bot)     | T1   | 1     | Use as reference scaffold |
+| [projects/wallet-tracker-pro/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/wallet-tracker-pro) | T4   | 2     | Spec-heavy scaffold       |
+| [projects/airdrop-tracker/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/airdrop-tracker)       | T6   | 2     | Directory placeholder     |
+| [projects/kol-tracker/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/kol-tracker)               | T4   | 3     | Directory placeholder     |
+| [projects/token-safety-suite/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/token-safety-suite) | T4   | 3     | Directory placeholder     |
+| [projects/on-chain-casino/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/on-chain-casino)       | T2   | 4–5   | Directory placeholder     |
+| [projects/ai-agent-platform/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/ai-agent-platform)   | T6   | 6     | Directory placeholder     |
 
 ---
 
 ## 🛠️ Shared Infrastructure
 
-The repo includes `projects/shared/` as a starter pattern library, but it is not yet a fully wired shared package used consistently across every project.
+The companion repo includes [`shared/`](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/shared) as a starter pattern library, but it is not yet a fully wired shared package used consistently across every project.
 
 ### Current Reusable Surfaces
 
-- **Authentication:** early wallet-auth scaffolding in `projects/shared/auth/`
-- **API:** early middleware scaffolding in `projects/shared/api/`
-- **Reference app patterns:** `projects/token-sniper-bot/` currently contains the most reusable TypeScript/Node scaffolding
-- **Primary continuation target:** `projects/token-safety-bot/` is the best place to turn the shared patterns into a stable baseline
+- **Authentication:** early wallet-auth scaffolding in [`shared/auth/`](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/shared/auth)
+- **API:** early middleware scaffolding in [`shared/api/`](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/shared/api)
+- **Reference app patterns:** [`token-sniper-bot/`](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/token-sniper-bot) currently contains the most reusable TypeScript/Node scaffolding
+- **Primary continuation target:** [`token-safety-bot/`](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/token-safety-bot) is the best place to turn the shared patterns into a stable baseline
 
 ### Intended Shared Foundation
 
@@ -166,4 +166,4 @@ Research based on [solanabox.tools](https://solanabox.tools/) ecosystem director
 (35 categories, 300+ tools) + YouTube channel research
 (DappUniversity, Handsome Finance, Orangie Web3, EducationalPasha, WarrenGuru, SolPump.io).
 
-_Generated: February 2026 — Updated: March 2026_
+_Generated: February 2026 — Updated: April 2026_
