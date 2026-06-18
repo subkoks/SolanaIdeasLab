@@ -55,10 +55,13 @@ Thumbs.db
 *.swo
 
 # Agent runtime (not project config)
-.claude/projects/
 .cursor/projects/
 .cursor/plans/
 
 # Companion repo with subproject code lives separately
 # Pushed as subkoks/SolanaIdeasLab-projects
 projects/
+
+# Claude Code (commit shared settings; ignore machine-local perms + transcripts)
+.claude/*
+!.claude/settings.json
