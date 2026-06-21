@@ -9,6 +9,8 @@ agent rules live in `AGENTS.md` — load them:
 Key documents: `MASTER-PLAN.md`, `ARCHITECTURE.md`, `MARKET-MAP.md`,
 `GAP-ANALYSIS.md`, `tech-stack.md`, and the `ideas/` backlog.
 
+**Pre-ship (any Solana code):** run `solana-reviewer` subagent before shipping code that signs or submits transactions.
+
 ## Cloud sessions (Claude Code on the web)
 
 This repo is cloud-ready. A `SessionStart` hook (`.claude/settings.json` ->
