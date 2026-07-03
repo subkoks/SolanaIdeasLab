@@ -167,3 +167,7 @@ Research based on [solanabox.tools](https://solanabox.tools/) ecosystem director
 (DappUniversity, Handsome Finance, Orangie Web3, EducationalPasha, WarrenGuru, SolPump.io).
 
 _Generated: February 2026 — Updated: April 2026_
+
+## Codex CLI
+
+Codex CLI can use the repo root `AGENTS.md` and the tracked `.codex/config.toml` defaults in this workspace.

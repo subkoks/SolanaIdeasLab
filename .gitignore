@@ -65,3 +65,8 @@ projects/
 # Claude Code (commit shared settings; ignore machine-local perms + transcripts)
 .claude/*
 !.claude/settings.json
+
+# Codex CLI
+!.codex/
+.codex/*
+!.codex/config.toml
