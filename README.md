@@ -2,7 +2,7 @@
 
 > **27 ranked Solana product ideas with partial scaffolds and early implementation work.**
 > Built from ecosystem research of 300+ tools across 35 categories.
-> **Status:** Strategy docs are strong; implementation state is mixed • Updated: April 2026
+> **Status:** Strategy docs are strong; three apps have active implementation in [SolanaIdeasLab-projects](https://github.com/subkoks/SolanaIdeasLab-projects) • Updated: July 2026
 
 ---
 
@@ -91,8 +91,8 @@ Month 6: AI Agent Platform                             → $150K+/mo
 
 | Status                        | Projects | Meaning                                                               |
 | ----------------------------- | -------- | --------------------------------------------------------------------- |
-| 🟢 **Partial implementation** | 2        | Real code exists, but the baseline still needs stabilization          |
-| 🟡 **Scaffold / placeholder** | 8        | Strategy and folder structure exist, but implementation is still thin |
+| 🟢 **Partial implementation** | 3        | Runnable apps in SolanaIdeasLab-projects (safety, sniper, wallet)     |
+| 🟡 **Scaffold / placeholder** | 7        | Strategy and folder structure exist, but implementation is still thin |
 | 🔴 **Production-ready**       | 0        | No project is yet in a ship-ready state                               |
 
 ### Current Maturity Snapshot
@@ -101,14 +101,14 @@ Month 6: AI Agent Platform                             → $150K+/mo
 | -------------------------------------------------------- | ---- | ---------- | ------------ | ------------------------ |
 | [Token Sniper Bot](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/token-sniper-bot)           | T1   | 3-5 days   | $5K–25K/mo   | 🟢 Partial implementation |
 | [Token Safety Bot](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/token-safety-bot)           | T1   | 3-5 days   | $4K–20K/mo   | 🟢 Partial implementation |
-| [Wallet Tracker Pro](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/wallet-tracker-pro)       | T4   | 2-4 weeks  | $10K–75K/mo  | 🟡 Detailed scaffold      |
-| [Airdrop Tracker](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/airdrop-tracker)             | T6   | 2-3 weeks  | $15K–100K/mo | 🟠 Folder scaffold        |
-| [KOL Tracker](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/kol-tracker)                     | T4   | 2-3 weeks  | $9K–30K/mo   | 🟠 Folder scaffold        |
-| [Token Safety Suite](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/token-safety-suite)       | T4   | 2-3 weeks  | $17K–100K/mo | 🟠 Folder scaffold        |
-| [On-Chain Casino](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/on-chain-casino)             | T2   | 4-6 weeks  | $45K–450K/mo | 🟠 Folder scaffold        |
-| [AI Agent Platform](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/ai-agent-platform)         | T6   | 8-12 weeks | $37K–650K/mo | 🟠 Folder scaffold        |
-| [Copy-Trade Bot](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/copy-trade-bot)               | T1   | 1-2 weeks  | $5K–40K/mo   | 🟠 Folder scaffold        |
-| [Crypto Tax Calculator](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/crypto-tax-calculator) | T6   | 4-6 weeks  | $30K–300K/mo | 🟠 Folder scaffold        |
+| [Wallet Tracker Pro](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/wallet-tracker-pro)       | T4   | 2-4 weeks  | $10K–75K/mo  | 🟢 Partial implementation |
+| [Airdrop Tracker](ideas/tier6-blue-ocean.md)             | T6   | 2-3 weeks  | $15K–100K/mo | 🟠 Idea only (not in implementation repo) |
+| [KOL Tracker](ideas/tier4-defense-tools.md)                     | T4   | 2-3 weeks  | $9K–30K/mo   | 🟠 Idea only (not in implementation repo) |
+| [Token Safety Suite](ideas/tier4-defense-tools.md)       | T4   | 2-3 weeks  | $17K–100K/mo | 🟠 Idea only (not in implementation repo) |
+| [On-Chain Casino](ideas/tier2-medium-plays.md)             | T2   | 4-6 weeks  | $45K–450K/mo | 🟠 Idea only (not in implementation repo) |
+| [AI Agent Platform](ideas/tier6-blue-ocean.md)         | T6   | 8-12 weeks | $37K–650K/mo | 🟠 Idea only (not in implementation repo) |
+| [Copy-Trade Bot](ideas/tier1-weekend-builds.md)               | T1   | 1-2 weeks  | $5K–40K/mo   | 🟠 Idea only (not in implementation repo) |
+| [Crypto Tax Calculator](ideas/tier6-blue-ocean.md) | T6   | 4-6 weeks  | $30K–300K/mo | 🟠 Idea only (not in implementation repo) |
 
 ---
 
@@ -118,12 +118,12 @@ Month 6: AI Agent Platform                             → $150K+/mo
 | ------------------------------------------------------------ | ---- | ----- | ------------------------- |
 | [projects/token-safety-bot/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/token-safety-bot)     | T1   | 1     | Continue here first       |
 | [projects/token-sniper-bot/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/token-sniper-bot)     | T1   | 1     | Use as reference scaffold |
-| [projects/wallet-tracker-pro/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/wallet-tracker-pro) | T4   | 2     | Spec-heavy scaffold       |
-| [projects/airdrop-tracker/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/airdrop-tracker)       | T6   | 2     | Directory placeholder     |
-| [projects/kol-tracker/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/kol-tracker)               | T4   | 3     | Directory placeholder     |
-| [projects/token-safety-suite/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/token-safety-suite) | T4   | 3     | Directory placeholder     |
-| [projects/on-chain-casino/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/on-chain-casino)       | T2   | 4–5   | Directory placeholder     |
-| [projects/ai-agent-platform/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/ai-agent-platform)   | T6   | 6     | Directory placeholder     |
+| [projects/wallet-tracker-pro/](https://github.com/subkoks/SolanaIdeasLab-projects/tree/main/wallet-tracker-pro) | T4   | 2     | Next.js dashboard + Telegram billing MVP |
+| [projects/airdrop-tracker/](ideas/tier6-blue-ocean.md)       | T6   | 2     | Idea doc only                             |
+| [projects/kol-tracker/](ideas/tier4-defense-tools.md)               | T4   | 3     | Idea doc only                             |
+| [projects/token-safety-suite/](ideas/tier4-defense-tools.md) | T4   | 3     | Idea doc only                             |
+| [projects/on-chain-casino/](ideas/tier2-medium-plays.md)       | T2   | 4–5   | Idea doc only                             |
+| [projects/ai-agent-platform/](ideas/tier6-blue-ocean.md)   | T6   | 6     | Idea doc only                             |
 
 ---
 
