@@ -2,7 +2,7 @@
 
 > 27 projects ranked by gap score, revenue ceiling, and buildability.
 > Data: solanabox.tools ecosystem audit (35 categories, 300+ tools).
-> Last updated: March 2026
+> Last updated: September 2026
 
 ---
 
@@ -10,7 +10,32 @@
 
 This document ranks opportunities by market potential, not by current repo completeness.
 
-Current implementation work in the repository is furthest along in the Token Safety / Token Sniper path, so that is the best continuation baseline even though the long-term strategic winner is still the AI Agent Platform.
+Current implementation work is furthest along in the Token Safety / Token Sniper / Wallet Tracker path. The immediate continuation direction is a **Solana Trust/Risk Gateway** — a shared set of trust and risk primitives that can serve those apps and, later, agentic payment flows. The AI Agent Platform remains a long-term option, not the next implementation target.
+
+## Execution Override (September 2026)
+
+The original ranking is a market-opportunity backlog, not a permission to start every product. The current implementation direction prioritizes a shared trust/risk layer because it compounds across the three runnable apps and reduces the blast radius of future automation. This is a set of reusable primitives to build toward, not a claim that any of it already exists or is production-ready.
+
+### Execution sequence
+
+1. **Safety / authentication baseline:** replay-safe wallet authentication and server-authoritative entitlements.
+2. **Shared risk / report API:** deterministic safety reports, provenance, and bounded quotas.
+3. **Wallet telemetry and subscriber-facing UX:** authenticated identity, alert distribution, and telemetry.
+4. **Shared trust surfaces and policy controls:** idempotency keys, audit/provenance events, and policy enforcement.
+5. **Agent-readable interfaces:** explore only after the core trust, quota, and policy boundaries are validated.
+
+### Definition of a shippable first product
+
+- A wallet can authenticate with a server-issued, single-use challenge (replay-safe).
+- Entitlements are derived from current server state, not stale client claims.
+- A client can request a risk report with a bounded quota and stable provenance.
+- Any future billing or webhook integration must be verified, server-authoritative, and idempotent before it is enabled.
+- Audit and provenance events are emitted for trust-relevant actions.
+- Public endpoints expose anonymous or trial budgets and never expose tenant data.
+
+### Explicit deferral
+
+No custody, autonomous execution, real-money operation, casino implementation, copy-trading, or production billing is authorized by this plan. Those ideas are retained below as historical/deferred concepts and require separate legal, custody, and policy approval.
 
 ---
 
@@ -207,6 +232,8 @@ Meanwhile:
 ---
 
 ## EXECUTION ROADMAP: 6-Month Path to Quit Your Job
+
+> **Note:** the month-by-month plan and revenue trajectory below predate the Execution Override above and are retained as historical reference, not the current build order.
 
 > **Target:** $150K+/mo by Month 6.
 > **Rule:** Finish and monetize each project before starting the next. Don't half-ship 5 things.
