@@ -2,7 +2,7 @@
 
 > **27 ranked Solana product ideas with partial scaffolds and early implementation work.**
 > Built from ecosystem research of 300+ tools across 35 categories.
-> **Status:** Strategy docs are strong; three apps have active implementation in [SolanaIdeasLab-projects](https://github.com/subkoks/SolanaIdeasLab-projects) • Updated: July 2026
+> **Status:** Strategy docs are strong; three apps have active implementation in [SolanaIdeasLab-projects](https://github.com/subkoks/SolanaIdeasLab-projects) • Updated: September 2026
 
 ---
 
@@ -20,17 +20,30 @@ The Solana ecosystem has **300+ tools** — but 78 are trading/sniper/telegram b
 
 ---
 
+## Continuation Decision (September 2026)
+
+The active implementation is converging on a **Solana Trust/Risk Gateway**: a shared set of trust and risk primitives — deterministic safety reporting, provenance, alerting, entitlement, and policy enforcement — intended to serve the existing safety, sniper, and wallet/telemetry concepts and, later, agentic payment flows. This is a direction to build toward, not a claim that any of it already exists.
+
+1. Stabilize `token-safety-bot` as the canonical risk and report engine.
+2. Keep `token-sniper-bot` focused on ingestion, alerts, and intelligence — not autonomous execution.
+3. Use `wallet-tracker-pro` as wallet telemetry and subscriber UX.
+4. Add replay-safe wallet auth, server-side entitlements, bounded quotas, and audit/provenance first; require verified, idempotent billing boundaries before any billing-enabled product.
+
+Casino, copy-trading, and autonomous-execution ideas are retained below as historical/deferred concepts, not the current build order.
+
+---
+
 ## 🚀 Quick Start Guide
 
 ### First Continuation Target
 
-1. **Token Safety Bot** — best current implementation target
+1. **Solana Trust/Risk Gateway** — current strategic direction
 
-   This is the strongest place to continue turning the strategy into a runnable product.
+   A shared trust/risk layer of reusable primitives serving the safety, sniper, and wallet/telemetry concepts. This is where continuation should focus.
 
-2. **Token Sniper Bot** — sibling reference implementation
+2. **Token Sniper Bot** — ingestion and alerting adapter
 
-   This is the most complete TypeScript/Node scaffold in the repo and should be treated as a reference while stabilizing the safety stack.
+   The most complete TypeScript/Node scaffold in the repo; treat it as a reference for structure and a source of launch/alert adapters, not an autonomous-execution target.
 
 ### For Planning Phase
 
@@ -51,15 +64,14 @@ The Solana ecosystem has **300+ tools** — but 78 are trading/sniper/telegram b
 
 ---
 
-## The 6-Month Roadmap at a Glance
+## Current Roadmap at a Glance
 
 ```text
-Month 1: Token Sniper Alert Bot + Token Safety Bot     → $5K–9K/mo
-Month 2: Wallet Tracker Pro + Alpha Community          → $15K–20K/mo
-Month 3: KOL Tracker + Token Safety Suite API          → $30K+/mo
-Month 4: On-Chain Casino (launch)                      → $50K+/mo
-Month 5: Casino scaling + white-label program          → $75K+/mo
-Month 6: AI Agent Platform                             → $150K+/mo
+Phase 1: Security baseline and replay-safe wallet authentication
+Phase 2: Canonical risk/report API, provenance, quotas, and alert adapters
+Phase 3: Wallet telemetry, subscriber UX, and authenticated billing boundaries
+Phase 4: Agent-readable interfaces and policy controls (exploratory)
+Deferred: autonomous execution, copy trading, casino/real-money flows
 ```
 
 ---
@@ -79,11 +91,13 @@ Month 6: AI Agent Platform                             → $150K+/mo
 
 ## Top 5 Picks
 
-1. **AI Trading Agent Platform** — 1 competitor in 300+ tools. The biggest gap.
-2. **On-Chain Casino** — Passive income. House edge = math. Open-source contracts ready.
-3. **Token Safety Suite** — B2B API revenue. Every terminal needs safety data.
-4. **Airdrop Tracker** — Only 2 competitors. Major drops expected Q1–Q2 2026.
-5. **KOL Tracker** — Zero competitors for accountability tracking.
+1. **Solana Trust/Risk Gateway** — current strategic direction and shared foundation.
+2. **Wallet Tracker Pro** — telemetry and subscriber distribution surface.
+3. **Token Safety Suite** — safety/risk API and widget expansion.
+4. **Airdrop / KOL tooling** — later verticals once the shared trust layer is stable.
+5. **AI Agent Platform** — long-term option, not the next implementation target.
+
+Casino, copy-trading, and autonomous-execution ideas are deferred until risk, custody, and policy controls are separately established. The surrounding idea backlog and maturity snapshots are retained as historical reference, not the immediate build order.
 
 ---
 
@@ -96,6 +110,8 @@ Month 6: AI Agent Platform                             → $150K+/mo
 | 🔴 **Production-ready**       | 0        | No project is yet in a ship-ready state                               |
 
 ### Current Maturity Snapshot
+
+> **Historical research snapshot:** maturity and revenue figures below are exploratory estimates from the original 2026 ecosystem review. They are retained for idea comparison only—not as current forecasts, validated pricing, or an execution plan.
 
 | Project                                                  | Tier | Build Time | Revenue      | Current State            |
 | -------------------------------------------------------- | ---- | ---------- | ------------ | ------------------------ |
@@ -153,7 +169,7 @@ The companion repo includes [`shared/`](https://github.com/subkoks/SolanaIdeasLa
 
 | Document                           | Purpose                             | Key Insights                      |
 | ---------------------------------- | ----------------------------------- | --------------------------------- |
-| [MASTER-PLAN.md](MASTER-PLAN.md)   | Top opportunities + 6-month roadmap | AI Agents = biggest gap           |
+| [MASTER-PLAN.md](MASTER-PLAN.md)   | Opportunity ranking + execution override | Trust/Risk Gateway is the current direction |
 | [GAP-ANALYSIS.md](GAP-ANALYSIS.md) | Full 35-category competition matrix | 78/300 tools are trading bots     |
 | [MARKET-MAP.md](MARKET-MAP.md)     | Ecosystem snapshot by category      | Wallet trackers charge $40-200/mo |
 | [tech-stack.md](tech-stack.md)     | Recommended stack direction         | Existing scaffolds lean TS/Node   |
@@ -166,7 +182,7 @@ Research based on [solanabox.tools](https://solanabox.tools/) ecosystem director
 (35 categories, 300+ tools) + YouTube channel research
 (DappUniversity, Handsome Finance, Orangie Web3, EducationalPasha, WarrenGuru, SolPump.io).
 
-_Generated: February 2026 — Updated: April 2026_
+_Generated: February 2026 — Strategy re-ranked: September 2026_
 
 ## Codex CLI
 

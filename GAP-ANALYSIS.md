@@ -1,7 +1,47 @@
 # Solana Ecosystem Gap Analysis
 
 > Source: [solanabox.tools](https://solanabox.tools/) — 35 categories, 300+ tools mapped
-> Updated: March 2026
+> Updated: September 2026
+
+---
+
+## Current Re-evaluation (September 2026)
+
+The historical category counts below remain useful for idea discovery, but they are not the current build order. The runnable projects now point toward a stronger wedge: a **Solana Trust/Risk Gateway** that combines token safety, wallet telemetry, alerting, entitlements, and provenance for human and agent clients. This is a shared trust/risk layer to build toward — not an existing product.
+
+### Build now
+
+- Replay-safe wallet authentication.
+- Server-authoritative entitlements.
+- Bounded quotas and deterministic risk reports.
+- Idempotent billing and webhook handling.
+- Audit and provenance events.
+
+### Use as adapters
+
+- Token sniper launch intelligence.
+- Wallet tracker telemetry.
+
+### Defer
+
+- Autonomous trading execution.
+- Copy-trading.
+- Casinos and performance-fee products.
+
+Deferred items require separate custody, legal, and policy approval.
+
+### Measure
+
+- Report accuracy and false-positive rate.
+- Time-to-report.
+- Quota abuse and entitlement drift.
+- Webhook idempotency.
+
+### Agent-facing access (exploratory)
+
+Explore standards-compatible, agent-readable access and entitlement interfaces only after core trust, quota, and policy boundaries are validated.
+
+This is an execution correction, not a deletion of the original opportunity backlog. The implementation gaps below should be read separately from these strategy assumptions.
 
 ---
 
