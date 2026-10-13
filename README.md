@@ -1,22 +1,19 @@
-# SolanaIdeasLab
+<a id="solanaideaslab"></a>
+
+<h1>
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/readme/hero-mobile.svg">
+    <img src="assets/readme/hero.svg" width="100%" alt="SolanaIdeasLab — research and strategy">
+  </picture>
+</h1>
+
+**SolanaIdeasLab** is the research and strategy repository for the Solana Lab projects.
+
+[Direction](#continuation-decision-september-2026) · [Start here](#-quick-start-guide) · [Roadmap](#current-roadmap-at-a-glance) · [Documentation](#-documentation-navigation)
 
 > **27 ranked Solana product ideas with partial scaffolds and early implementation work.**
 > Built from ecosystem research of 300+ tools across 35 categories.
 > **Status:** Strategy docs are strong; three apps have active implementation in [SolanaIdeasLab-projects](https://github.com/subkoks/SolanaIdeasLab-projects) • Updated: September 2026
-
----
-
-## Executive Summary
-
-The Solana ecosystem has **300+ tools** — but 78 are trading/sniper/telegram bots competing for the same users. The real opportunities lie where nobody else is building:
-
-- **AI Agents:** 1 competitor (Griffain) → 10/10 gap
-- **Airdrop Trackers:** 2 competitors → 9/10 gap
-- **Wallet Trackers:** 4 competitors → 8/10 gap
-- **Token Safety:** 6+ partial tools → 8/10 gap
-- **On-Chain Casinos:** 13 competitors → 7/10 gap
-
-**Don't build the 39th trading bot. Build where nobody else is building.**
 
 ---
 
@@ -51,6 +48,20 @@ Casino, copy-trading, and autonomous-execution ideas are retained below as histo
 2. **Check Market Gaps** - [GAP-ANALYSIS.md](GAP-ANALYSIS.md)
 3. **Study Competition** - [MARKET-MAP.md](MARKET-MAP.md)
 4. **Review Tech Stack** - [tech-stack.md](tech-stack.md)
+
+---
+
+## Executive Summary
+
+The Solana ecosystem has **300+ tools** — but 78 are trading/sniper/telegram bots competing for the same users. The real opportunities lie where nobody else is building:
+
+- **AI Agents:** 1 competitor (Griffain) → 10/10 gap
+- **Airdrop Trackers:** 2 competitors → 9/10 gap
+- **Wallet Trackers:** 4 competitors → 8/10 gap
+- **Token Safety:** 6+ partial tools → 8/10 gap
+- **On-Chain Casinos:** 13 competitors → 7/10 gap
+
+**Don't build the 39th trading bot. Build where nobody else is building.**
 
 ---
 
