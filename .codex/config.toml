@@ -1,5 +1,6 @@
 # Repo-local Codex defaults for this workspace.
 
+model = "gpt-6.1-sol"
 default_permissions = ":workspace"
 approval_policy = "on-request"
 allow_login_shell = true

@@ -61,7 +61,7 @@
 | LangChain / LangGraph | Agent orchestration, tool use, memory        |
 | Solana Agent Kit      | On-chain AI agent execution (official SDK)   |
 | DeepSeek API          | Cheap, fast LLM (reasoning + coding)         |
-| OpenAI API            | GPT-4o for complex agent decisions           |
+| OpenAI API            | GPT-6.1 Sol (`gpt-6.1-sol`) for complex coding and agent decisions |
 | Ollama (local)        | Free inference: deepseek-r1:14b, llama3.1:8b |
 
 ---
