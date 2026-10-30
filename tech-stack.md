@@ -2,7 +2,8 @@
 
 > Recommended stack direction for the SolanaIdeasLab roadmap.
 > Current repo baseline leans TypeScript/Node for the existing bot scaffolds.
-> Updated: March 2026
+> Reviewed: 2026-10-29. Current source/version evidence and migration gates: [Solana AI review](docs/research/2026-10-29-solana-ai-review.md).
+> Versions below are dated recommendations, not installed-state or production-readiness claims.
 
 ---
 
@@ -12,12 +13,21 @@
 | ---------------------- | ---------------------------------------------------------- |
 | Telegram bot scaffolds | TypeScript + Express + Telegraf                            |
 | Safety / scanner work  | TypeScript/Node is the current implementation path in-repo |
-| Web dashboards         | Mostly strategy/spec level, not implemented yet            |
+| Web dashboards         | Next.js16 Wallet UI and isolated local fixture demos; not production acceptance            |
 | On-chain game work     | Planned, not yet represented by stable code in this repo   |
 
 ---
 
-## MCP Servers (Active in Claude Code)
+## Developer tooling (Codex + VS Code)
+
+The connected Solana Developer MCP successfully listed its documentation catalogue in this review.
+Four docs tools are available in the current session; the site advertises an additional Rust checker.
+The existing `solana-dev` skill reports2.7.0. No reinstall or configuration change was performed.
+
+The following older MCP candidate list is **not** an inventory of active connections. Verify each
+service, access and cost before use; paid data and model APIs are not required for fixture work.
+
+## Historical MCP candidates
 
 | Server             | Purpose                               | Best For                                        |
 | ------------------ | ------------------------------------- | ----------------------------------------------- |
@@ -33,8 +43,10 @@
 
 | Library                    | Version | Purpose                                    |
 | -------------------------- | ------- | ------------------------------------------ |
-| `@solana/kit`              | v5      | Modern Solana client (replaces web3.js v1) |
-| `@solana/wallet-adapter`   | latest  | Phantom, Solflare, Backpack integration    |
+| `@solana/kit` | 8.6.0 snapshot | Foundation-recommended plugin-client direction for new work |
+| `@solana/web3.js` | Existing1.x; migration target3.1.1 snapshot | Contain class SDKs to adapters; prove bigint/bytes/v0/v1 compatibility before upgrading |
+| `@solana/kit-plugin-wallet` + `@solana/react` | Pin a compatible set | Foundation-recommended new wallet UI direction; negotiate transaction versions |
+| `@solana/wallet-adapter` | Legacy only | Retain existing use until an explicit migration is tested |
 | `@coral-xyz/anchor`        | latest  | Solana program framework (Rust)            |
 | `@orao-network/solana-vrf` | latest  | Verifiable randomness (casino games)       |
 | `@magicblock-labs/bolt`    | latest  | Ephemeral Rollups for sub-second games     |
@@ -46,7 +58,7 @@
 | Service        | What It Provides                                | Use For                |
 | -------------- | ----------------------------------------------- | ---------------------- |
 | Helius API     | RPC, webhooks, LaserStream, DAS, token metadata | Everything on-chain    |
-| Jupiter V6 API | Best swap routing, price data, token list       | Swaps, copy-trade exec |
+| Jupiter developer APIs | Current API catalogue: https://developers.jup.ag/docs/get-started       | Swaps, copy-trade exec |
 | Raydium SDK    | AMM + LP interactions, pool data                | DEX integrations       |
 | Orca Whirlpool | Concentrated liquidity pool data                | Arb bots               |
 | pump.fun API   | New token launches, bonding curve data          | Sniper bots, scanners  |
@@ -59,9 +71,9 @@
 | Library / Service     | Purpose                                      |
 | --------------------- | -------------------------------------------- |
 | LangChain / LangGraph | Agent orchestration, tool use, memory        |
-| Solana Agent Kit      | On-chain AI agent execution (official SDK)   |
+| Solana Agent Kit      | Third-party SendAI action toolkit; not a Foundation SDK or required Gateway dependency   |
 | DeepSeek API          | Cheap, fast LLM (reasoning + coding)         |
-| OpenAI API            | GPT-6.1 Sol (`gpt-6.1-sol`) for complex coding and agent decisions |
+| OpenAI API            | Optional application inference; verify API availability/cost separately from coding-agent setup |
 | Ollama (local)        | Free inference: deepseek-r1:14b, llama3.1:8b |
 
 ---
@@ -70,7 +82,7 @@
 
 | Tool                           | Version | Purpose                    |
 | ------------------------------ | ------- | -------------------------- |
-| Next.js                        | 15+     | Full-stack React framework |
+| Next.js                        | Existing16.x     | Full-stack React framework |
 | React                          | 19+     | UI components              |
 | TailwindCSS                    | 4+      | Utility-first styling      |
 | shadcn/ui                      | latest  | Component library          |
@@ -124,7 +136,10 @@
 
 ---
 
-## Relevant Claude Code Skills
+## Relevant skills for Codex
+
+Use the active session’s installed catalogue, not this historical list as installation instructions.
+`solana-dev` is the primary current Solana source; local domain/security skills complement it.
 
 | Skill                     | Use For                                |
 | ------------------------- | -------------------------------------- |
@@ -154,7 +169,7 @@ TypeScript + Telegraf + Express + Helius API + Supabase + Redis
 ### Web Dashboard (Tier 2–4)
 
 ```text
-Next.js 15 + TailwindCSS 4 + shadcn/ui + Supabase + Nansen MCP + Stripe
+Next.js 16 + TailwindCSS 4 + shadcn/ui + Supabase + Nansen MCP + Stripe
 ```
 
 ### On-Chain Game / Casino (Tier 2–5)
@@ -180,3 +195,12 @@ Anchor (Rust) + token-2022 + Pyth oracles + Next.js + Supabase
 ```text
 TypeScript + Express + Helius RPC + @solana/web3.js or @solana/kit + Supabase + Redis
 ```
+
+## Optional agent standards (separate integration gates)
+
+- x402: payment transport, not client budgets or application identity. No payment integration is currently claimed.
+- Agent Registry: discovery/provenance; registration or feedback does not prove safety or grant tenant access.
+- Payment Channels: metering/settlement infrastructure, deferred until a funded use case and recovery semantics are approved.
+- New program work may evaluate Foundation-listed Kora, Keychain, Mosaic and local testing tools; none is a prerequisite for a read-only report API.
+
+See the dated review for source links, maturity distinctions and acceptance gates. Do not bulk-install these tools.

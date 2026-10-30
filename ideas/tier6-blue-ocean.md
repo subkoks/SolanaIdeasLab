@@ -1,5 +1,10 @@
 # Tier 6: Blue Ocean (Lowest Competition, Emerging Markets)
 
+> Historical hypotheses, reviewed 29 October 2026. Exclusivity claims, rankings,
+> competitor counts and revenue scenarios below are not validated current findings.
+> See the [current resource review and roadmap](../docs/research/2026-10-29-solana-ai-review.md)
+> before treating these ideas as implementation priorities.
+
 > Categories where almost nobody is building.
 > First-mover advantage is real here.
 
@@ -88,7 +93,7 @@ Next.js dashboard
 
 ### Reference
 
-Griffain (only competitor). `solana-labs/solana-agent-kit` (reference SDK).
+Griffain (historical example; no current competitor census established). [`sendaifun/solana-agent-kit`](https://github.com/sendaifun/solana-agent-kit) (third-party SendAI toolkit) (reference SDK).
 
 ---
 

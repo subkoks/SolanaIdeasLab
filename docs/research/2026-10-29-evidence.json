@@ -1,0 +1,127 @@
+{
+  "report_date": "2026-10-29",
+  "scope": "public documentation and local source inspection; no installs or financial actions",
+  "parent_documents": [
+    {
+      "path": "AGENTS.md",
+      "lines": 6,
+      "reviewed": true
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "lines": 472,
+      "reviewed": true
+    },
+    {
+      "path": "CLAUDE.md",
+      "lines": 19,
+      "reviewed": true
+    },
+    {
+      "path": "GAP-ANALYSIS.md",
+      "lines": 304,
+      "reviewed": true
+    },
+    {
+      "path": "MARKET-MAP.md",
+      "lines": 299,
+      "reviewed": true
+    },
+    {
+      "path": "MASTER-PLAN.md",
+      "lines": 434,
+      "reviewed": true
+    },
+    {
+      "path": "README.md",
+      "lines": 200,
+      "reviewed": true
+    },
+    {
+      "path": "ideas/tier1-weekend-builds.md",
+      "lines": 243,
+      "reviewed": true
+    },
+    {
+      "path": "ideas/tier2-medium-plays.md",
+      "lines": 243,
+      "reviewed": true
+    },
+    {
+      "path": "ideas/tier3-big-plays.md",
+      "lines": 226,
+      "reviewed": true
+    },
+    {
+      "path": "ideas/tier4-defense-tools.md",
+      "lines": 255,
+      "reviewed": true
+    },
+    {
+      "path": "ideas/tier5-platform-plays.md",
+      "lines": 213,
+      "reviewed": true
+    },
+    {
+      "path": "ideas/tier6-blue-ocean.md",
+      "lines": 337,
+      "reviewed": true
+    },
+    {
+      "path": "tech-stack.md",
+      "lines": 182,
+      "reviewed": true
+    }
+  ],
+  "npm_latest_snapshot": [
+    {
+      "name": "@solana/kit",
+      "version": "8.6.0",
+      "engines": {
+        "node": ">=20.18.0"
+      },
+      "source": "https://registry.npmjs.org/@solana%2Fkit/latest",
+      "observed_date": "2026-10-29"
+    },
+    {
+      "name": "@solana/web3.js",
+      "version": "3.1.1",
+      "engines": {
+        "node": ">=20.18.0"
+      },
+      "source": "https://registry.npmjs.org/@solana%2Fweb3.js/latest",
+      "observed_date": "2026-10-29"
+    },
+    {
+      "name": "solana-agent-kit",
+      "version": "2.0.10",
+      "engines": {
+        "node": ">=22.0.0",
+        "pnpm": ">=8.0.0"
+      },
+      "source": "https://registry.npmjs.org/solana-agent-kit/latest",
+      "observed_date": "2026-10-29"
+    },
+    {
+      "name": "@x402/svm",
+      "version": "2.29.0",
+      "engines": null,
+      "source": "https://registry.npmjs.org/@x402%2Fsvm/latest",
+      "observed_date": "2026-10-29"
+    },
+    {
+      "name": "8004-solana",
+      "version": "0.8.5",
+      "engines": {
+        "node": ">=20.19.0"
+      },
+      "source": "https://registry.npmjs.org/8004-solana/latest",
+      "observed_date": "2026-10-29"
+    }
+  ],
+  "retrieval_notes": [
+    "GitHub latest release and npm dist-tag may differ; do not infer one from the other.",
+    "Publication dates not shown on landing pages are unknown.",
+    "Baseline parent docs were 14 files and 3433 lines before corrections."
+  ]
+}

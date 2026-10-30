@@ -1,5 +1,8 @@
 # MASTER PLAN: Quit Your Job With Solana
 
+> **Review 2026-10-29:** The September execution override remains the product direction. Rankings, competitor counts, revenue targets and month-by-month narratives below are historical hypotheses, not current forecasts or authorization.
+> See the [current resource review and implementation gates](docs/research/2026-10-29-solana-ai-review.md).
+
 > 27 projects ranked by gap score, revenue ceiling, and buildability.
 > Data: solanabox.tools ecosystem audit (35 categories, 300+ tools).
 > Last updated: September 2026
@@ -414,7 +417,7 @@ Month 6:  $150K+/mo    (+ AI agent platform)
 | `RealCottonCandyPimp/solana-casino-game` | Anchor casino (ORAO VRF)           | Casino (#8, #12)    |
 | `0xalberto/solana-crash-game`            | Crash game (Rust + Anchor + React) | Casino crash game   |
 | `insionCEO/Solana-Casino-Game`           | Multi-game casino (10+ games)      | Casino full suite   |
-| `solana-labs/solana-agent-kit`           | On-chain AI agent execution        | AI Platform (#22)   |
+| [`sendaifun/solana-agent-kit`](https://github.com/sendaifun/solana-agent-kit) (third-party SendAI toolkit)           | On-chain AI agent execution        | AI Platform (#22)   |
 
 ---
 

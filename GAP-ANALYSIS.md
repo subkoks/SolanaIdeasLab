@@ -1,5 +1,8 @@
 # Solana Ecosystem Gap Analysis
 
+> **Review 2026-10-29:** The competition matrix is a historical directory snapshot. Its exact counts, exclusivity claims and gap scores were not revalidated as a current market census.
+> See the [current resource review and implementation gates](docs/research/2026-10-29-solana-ai-review.md).
+
 > Source: [solanabox.tools](https://solanabox.tools/) — 35 categories, 300+ tools mapped
 > Updated: September 2026
 
