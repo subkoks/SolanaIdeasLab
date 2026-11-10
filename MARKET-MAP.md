@@ -1,5 +1,8 @@
 # Solana Ecosystem Market Map
 
+> **Review 2026-10-29:** Preserved February directory snapshot. Do not treat a single directory as an exhaustive current ecosystem census or assume listed capabilities/prices are unchanged.
+> See the [current resource review and implementation gates](docs/research/2026-10-29-solana-ai-review.md).
+
 > Every tool tracked on solanabox.tools, organized by category
 > Date: February 2026
 

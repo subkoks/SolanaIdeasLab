@@ -1,5 +1,10 @@
 # Tier 3: Big Plays (1–3 Months, Platform-Level)
 
+> Historical idea backlog, reviewed 29 October 2026. Competitor counts, revenue
+> scenarios and build estimates below are not current market findings or forecasts.
+> See the [current resource review and roadmap](../docs/research/2026-10-29-solana-ai-review.md)
+> for the evidence-first Trust/Risk Gateway direction and deferred platform ideas.
+
 > High effort, high reward. These are platform businesses that can reach $1M+/year.
 > Don't start here — build Tier 1 and 2 first for cash flow and validation.
 
@@ -125,7 +130,7 @@ LangChain/LangGraph → agent orchestration
 
 ### Reference
 
-Griffain (only competitor). `solana-labs/solana-agent-kit` (reference SDK).
+Griffain (historical example; no current competitor census established). [`sendaifun/solana-agent-kit`](https://github.com/sendaifun/solana-agent-kit) (third-party SendAI toolkit) (reference SDK).
 
 ---
 
