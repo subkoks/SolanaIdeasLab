@@ -13,13 +13,20 @@
 
 > **27 ranked Solana product ideas with partial scaffolds and early implementation work.**
 > Built from ecosystem research of 300+ tools across 35 categories.
-> **Status:** Strategy docs are strong; three apps have active implementation in [SolanaIdeasLab-projects](https://github.com/subkoks/SolanaIdeasLab-projects) • Updated: September 2026
+> **Status:** Three partial apps have active implementation in [SolanaIdeasLab-projects](https://github.com/subkoks/SolanaIdeasLab-projects); production acceptance remains unproven. Research reviewed: October 2026.
 
 ---
 
+## Current resource review (October 2026)
+
+Read the [six-resource Solana AI review and acceptance roadmap](docs/research/2026-10-29-solana-ai-review.md) before choosing new tooling.
+It covers every parent planning document, current SDK direction, local implementation gaps,
+and separate gates for agent identity and payments. Historical market counts and revenue tables
+below are not a current competitor census or forecast. No installation or live operation follows from this review.
+
 ## Continuation Decision (September 2026)
 
-The active implementation is converging on a **Solana Trust/Risk Gateway**: a shared set of trust and risk primitives — deterministic safety reporting, provenance, alerting, entitlement, and policy enforcement — intended to serve the existing safety, sniper, and wallet/telemetry concepts and, later, agentic payment flows. This is a direction to build toward, not a claim that any of it already exists.
+The active implementation is converging on a **Solana Trust/Risk Gateway**: a shared set of trust and risk primitives — deterministic safety reporting, provenance, alerting, entitlement, and policy enforcement — intended to serve the existing safety, sniper, and wallet/telemetry concepts and, later, agentic payment flows. Some report and observation primitives now exist locally; the complete product and production acceptance are still unproven. See the dated review for evidence.
 
 1. Stabilize `token-safety-bot` as the canonical risk and report engine.
 2. Keep `token-sniper-bot` focused on ingestion, alerts, and intelligence — not autonomous execution.
@@ -53,7 +60,7 @@ Casino, copy-trading, and autonomous-execution ideas are retained below as histo
 
 ## Executive Summary
 
-The Solana ecosystem has **300+ tools** — but 78 are trading/sniper/telegram bots competing for the same users. The real opportunities lie where nobody else is building:
+The original directory snapshot counted **300+ tools**, including 78 trading/sniper/Telegram entries. These historical counts do not establish current market size, exclusivity or demand. Its original hypotheses were:
 
 - **AI Agents:** 1 competitor (Griffain) → 10/10 gap
 - **Airdrop Trackers:** 2 competitors → 9/10 gap
@@ -61,7 +68,7 @@ The Solana ecosystem has **300+ tools** — but 78 are trading/sniper/telegram b
 - **Token Safety:** 6+ partial tools → 8/10 gap
 - **On-Chain Casinos:** 13 competitors → 7/10 gap
 
-**Don't build the 39th trading bot. Build where nobody else is building.**
+**Current decision:** validate an evidence-first risk/report product before expanding the backlog.
 
 ---
 

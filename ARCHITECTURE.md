@@ -1,5 +1,8 @@
 # Architecture Documentation
 
+> **Review 2026-10-29:** This is an aspirational architecture, not a deployed-service inventory. The Node18 container and JWT-tier example below are historical sketches, not current deployment or server-authoritative entitlement recipes.
+> See the [current resource review and implementation gates](docs/research/2026-10-29-solana-ai-review.md).
+
 > System design patterns, database schemas, and integration contracts for SolanaIdeasLab projects.
 
 ---
